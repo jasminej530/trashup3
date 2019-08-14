@@ -1,0 +1,266 @@
+
+video {
+  position: relative;
+  top: -150px;
+}
+
+body {
+  background-color: MediumAquamarine	;
+  color: White;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 10px 30px 00px 30px; /* top, right, bottom, left */
+}
+h1 {
+    font: 50 100px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+    top: 325px;
+    z-index: 1;
+  }
+
+h2 {
+    font: 50 100px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+  }
+h2 {
+  text-align: center;
+  position: relative;
+  top: 00px;
+}
+h5 {
+  text-align: center;
+  position: relative;
+  top: -250px;
+}
+
+/* #straw {
+  position: relative;
+  top: -1000px;
+  right:-400px;
+}
+#bottle {
+  position: relative;
+  left: -400px;
+  top: -500px;
+}
+#plasticBags {
+  position: relative;
+  left: -300px;
+  top: -600px;
+
+
+}
+#car {
+  position: relative;
+  top: -800px;
+  right:-400px; */
+/* } */
+
+#straw {
+
+  position: absolute;
+  left: 1000px;
+  top: 300px;
+  display:inline-block;
+  /* top: -1000px;
+  right:-400px; */
+}
+#bottle {
+  /* position: relative; */
+  /* left: -400px;
+  top: -500px; */
+  position: absolute;
+  left: 100px;
+  top: 600px;
+  display: inline-block;
+}
+#plasticBags {
+  position: absolute;
+  left:0px;
+  top: 300px;
+  /* left: -300px;
+  top: -600px; */
+  display:inline-block;
+
+}
+#car {
+  /* position: relative; */
+  /* top: -800px;
+  right:-400px; */ */
+  position: absolute;
+  left:800px;
+  top: 600px;
+  display: inline-block;
+}
+
+
+#moon{
+  position: relative;
+  left:100px;
+}
+
+#kiara {
+  position: absolute;
+  top: 295px;
+  right:300px;
+}
+
+#tharin {
+  position: absolute;
+  top: 595px;
+  right:300px;
+}
+#sophia {
+  position: absolute;
+  top: 595px;
+  left:300px;
+}
+#serina {
+  position: absolute;
+  top: 295px;
+  left:300px;
+}
+
+
+
+.img-and-popup {
+  text-align: center;
+}
+
+.img-and-popup .before {
+  height: 200px;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.popup .popuptext .after {
+  height: 100px;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+body {
+font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: Aquamarine;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;\
+  margin-bottom: 0px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 275px;
+  height: 300px;
+  border-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+}
